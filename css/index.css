@@ -1,0 +1,20 @@
+body {
+    background: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
