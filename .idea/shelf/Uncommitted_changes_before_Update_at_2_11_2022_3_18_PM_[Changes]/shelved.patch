@@ -1,0 +1,47 @@
+Index: LICENSE
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>MIT License\r\n\r\nCopyright (c) 2021 Camden\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LICENSE b/LICENSE
+--- a/LICENSE	(revision 274e67778c343554c5c3cc1d9939c239a5e70501)
++++ b/LICENSE	(date 1640740611144)
+@@ -1,6 +1,6 @@
+ MIT License
+ 
+-Copyright (c) 2021 Camden
++Copyright (c) 2021 Jacob
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+> <!doctype html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n\r\n    <title>WebsiteName</title>\r\n\r\n\t<!-- Meta -->\r\n\t<meta charset=\"UTF-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n\t<meta name=\"description\" content=\"Your website description\"/>\r\n\t<meta name=\"keywords\" content=\"Keywords, that, you, like\">\r\n\r\n    <!-- Styles -->\r\n\t<link rel=\"stylesheet\" href=\"css/index.css\">\r\n\r\n\t<!-- Fonts -->\r\n\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n\t<link href=\"https://fonts.googleapis.com/css2?family=Montserrat&display=swap\" rel=\"stylesheet\">\r\n\r\n\t<!-- Open Graph Embeds (Shows up in Discord, Text and Twitter) -->\r\n\t<meta property=\"og:title\" content=\"Website Name\"/>\r\n\t<meta property=\"og:type\" content=\"website\"/>\r\n\t<meta property=\"og:url\" content=\"https://yourwebsitedomain\"/>\r\n\t<meta property=\"og:image\" content=\"https://yourwebsitedomain/path/to/iconImage\"/>\r\n\t<meta property=\"og:description\" content=\"Your website description\"/>\r\n\r\n</head>\r\n\r\n<body>\r\n\r\n    <h1 class=\"montserrat center\">Hello World</h1>\r\n\r\n    <!-- Scripts -->\r\n    <script src=\"js/index.js\"></script>\r\n\r\n</body>\r\n\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 274e67778c343554c5c3cc1d9939c239a5e70501)
++++ b/index.html	(date 1641605437313)
+@@ -1,4 +1,4 @@
+- <!doctype html>
++<!doctype html>
+ <html lang="en">
+ 
+ <head>
+@@ -31,8 +31,10 @@
+ 
+ <body>
+ 
+-    <h1 class="montserrat center">Hello World</h1>
+-
++    <h1 class="montserrat center">Jacob Agron Sierra</h1>
++	<p> I love programming xd</p>
++	<a href="https://github.com/duhbaconstripz">Github</a>
++	<a href="https://www.linkedin.com/in/jacob-sierra/">LinkedIn</a>
+     <!-- Scripts -->
+     <script src="js/index.js"></script>
+ 
