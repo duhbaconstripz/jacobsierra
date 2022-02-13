@@ -1,18 +1,31 @@
-body {
+html {
     background: black;
 }
 
 p {
     color: white;
 }
+li {
+    color: white;
+}
 
 h1 {
     color: white;
 }
-
+.about-me{
+    background-color: aqua;
+}
 
 .montserrat {
     font-family: 'Montserrat', sans-serif;
+}
+
+.projects{
+    color: chocolate;
+    margin-left: 20px;
+}
+#projects-header{
+    font-size: xx-large;
 }
 
 .center {
