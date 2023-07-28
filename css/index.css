@@ -1,10 +1,7 @@
-html {
-    background: black;
+p {
+    color: blue;
 }
 
-p {
-    color: white;
-}
 li {
     color: white;
 }
@@ -12,35 +9,72 @@ li {
 h1 {
     color: white;
 }
-.about-me{
-    color: white;
+
+.about-me, .projects, .education {
+    color: black;
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
-
-
 }
 
 .montserrat {
     font-family: 'Montserrat', sans-serif;
-    color:darkred;
+    color: darkred;
 }
 
-.projects{
-    color: chocolate;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-}
-#projects-header{
+#projects-header {
     font-size: xx-large;
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 600px;
 }
+
 .center {
     text-align: center;
+}
+
+body {
+    background-image: url('/images/black.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent; /* makes the background transparent */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold; /* optional, for a bold font */
+}
+
+.carousel {
+    display: flex; /* Display the images in a row */
+    justify-content: space-between; /* Add some space between the images */
+    width: 100%;
+    overflow: auto; /* Add a scrollbar if necessary */
+    padding: 20px 0; /* Optional, add some vertical padding */
+}
+
+.carousel__image {
+    max-width: 49%; /* Optional, limit image width. You may need to adjust this */
+}
+
+
+.social-icon {
+    width: 42px;
+    height: 42px;
 }
